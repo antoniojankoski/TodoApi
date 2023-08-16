@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/todo/TodoApi/TodoApi.csproj": {}
+    "/home/user/TodoApi/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/home/user/todo/TodoApi/TodoApi.csproj": {
+    "/home/user/TodoApi/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/todo/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/home/user/TodoApi/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/home/user/todo/TodoApi/TodoApi.csproj",
+        "projectPath": "/home/user/TodoApi/TodoApi/TodoApi.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/todo/TodoApi/obj/",
+        "outputPath": "/home/user/TodoApi/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -45,6 +49,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
